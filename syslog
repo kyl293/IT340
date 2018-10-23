@@ -1,0 +1,235 @@
+Oct 23 16:42:54 kyle-VirtualBox rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="467" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Oct 23 16:43:05 kyle-VirtualBox anacron[631]: Job `cron.daily' terminated
+Oct 23 16:43:05 kyle-VirtualBox anacron[631]: Normal exit (1 job run)
+Oct 23 16:43:08 kyle-VirtualBox gnome-shell[2018]: Some code accessed the property 'refreshPropertyOnProxy' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 23 16:43:54 kyle-VirtualBox /usr/lib/gdm3/gdm-x-session[1846]: (EE) client bug: timer event4 debounce: offset negative (-22ms)
+Oct 23 16:43:54 kyle-VirtualBox /usr/lib/gdm3/gdm-x-session[1846]: (EE) client bug: timer event4 debounce short: offset negative (-11ms)
+Oct 23 16:43:56 kyle-VirtualBox gnome-shell[2018]: clutter_actor_contains: assertion 'CLUTTER_IS_ACTOR (descendant)' failed
+Oct 23 16:43:56 kyle-VirtualBox gnome-shell[2018]: clutter_actor_contains: assertion 'CLUTTER_IS_ACTOR (descendant)' failed
+Oct 23 16:44:05 kyle-VirtualBox dbus-daemon[472]: [system] Activating service name='org.debian.apt' requested by ':1.124' (uid=1000 pid=6078 comm="/usr/bin/python3 /usr/bin/update-manager --no-upda" label="unconfined") (using servicehelper)
+Oct 23 16:44:06 kyle-VirtualBox AptDaemon: INFO: Initializing daemon
+Oct 23 16:44:06 kyle-VirtualBox org.debian.apt[472]: 16:44:06 AptDaemon [INFO]: Initializing daemon
+Oct 23 16:44:06 kyle-VirtualBox dbus-daemon[472]: [system] Successfully activated service 'org.debian.apt'
+Oct 23 16:44:06 kyle-VirtualBox AptDaemon: INFO: CommitPackages() was called: dbus.Array([dbus.String('linux-headers-4.15.0-38#auto'), dbus.String('linux-headers-4.15.0-38-generic#auto'), dbus.String('linux-image-4.15.0-38-generic#auto'), dbus.String('linux-modules-4.15.0-38-generic#auto'), dbus.String('linux-modules-extra-4.15.0-38-generic#auto')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('bsdutils'), dbus.String('fdisk'), dbus.String('friendly-recovery'), dbus.String('gir1.2-snapd-1'), dbus.String('gnome-mines'), dbus.String('gnome-software'), dbus.String('gnome-software-common'), dbus.String('gnome-software-plugin-snap'), dbus.String('libblkid1'), dbus.String('libfdisk1'), dbus.String('libmount1'), dbus.String('libsmartcols1'), dbus.String('libsnapd-glib1'), dbus.String('libuuid1'), dbus.String('linux-generic'), dbus.String('linux-headers-generic'), dbus.String('linux-image-generic'), dbus.String('mount'), dbus.String('python3-distupgrade'), dbus.String('rfkill'), dbus.String('ubuntu-release-upgrader-core'), dbus.String('ubuntu-release-upgrader-gtk'), dbus.String('ubuntu-software'), dbus.String('util-linux'), dbus.String('uuid-runtime')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s'))
+Oct 23 16:44:06 kyle-VirtualBox org.debian.apt[472]: /usr/lib/python3/dist-packages/aptdaemon/worker/pkworker.py:35: PyGIWarning: PackageKitGlib was imported without specifying a version first. Use gi.require_version('PackageKitGlib', '1.0') before import to ensure that the right version gets loaded.
+Oct 23 16:44:06 kyle-VirtualBox org.debian.apt[472]:   from gi.repository import PackageKitGlib as pk
+Oct 23 16:44:06 kyle-VirtualBox org.debian.apt[472]: 16:44:06 AptDaemon [INFO]: CommitPackages() was called: dbus.Array([dbus.String('linux-headers-4.15.0-38#auto'), dbus.String('linux-headers-4.15.0-38-generic#auto'), dbus.String('linux-image-4.15.0-38-generic#auto'), dbus.String('linux-modules-4.15.0-38-generic#auto'), dbus.String('linux-modules-extra-4.15.0-38-generic#auto')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('bsdutils'), dbus.String('fdisk'), dbus.String('friendly-recovery'), dbus.String('gir1.2-snapd-1'), dbus.String('gnome-mines'), dbus.String('gnome-software'), dbus.String('gnome-software-common'), dbus.String('gnome-software-plugin-snap'), dbus.String('libblkid1'), dbus.String('libfdisk1'), dbus.String('libmount1'), dbus.String('libsmartcols1'), dbus.String('libsnapd-glib1'), dbus.String('libuuid1'), dbus.String('linux-generic'), dbus.String('linux-headers-generic'), dbus.String('linux-image-generic'), dbus.String('mount'), dbus.String('python3-distupgrade'), dbus.String('rfkill'), dbus.String('ubuntu-release-upgrader-core'), dbus.String('ubuntu-release-upgrader-gtk'), dbus.String('ubuntu-software'), dbus.String('util-linux'), dbus.String('uuid-runtime')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s'))
+Oct 23 16:44:07 kyle-VirtualBox AptDaemon.Trans: INFO: Queuing transaction /org/debian/apt/transaction/c812a21024b14d20946129fd82f10599
+Oct 23 16:44:07 kyle-VirtualBox org.debian.apt[472]: 16:44:07 AptDaemon.Trans [INFO]: Queuing transaction /org/debian/apt/transaction/c812a21024b14d20946129fd82f10599
+Oct 23 16:44:07 kyle-VirtualBox AptDaemon.Worker: INFO: Simulating trans: /org/debian/apt/transaction/c812a21024b14d20946129fd82f10599
+Oct 23 16:44:07 kyle-VirtualBox org.debian.apt[472]: 16:44:07 AptDaemon.Worker [INFO]: Simulating trans: /org/debian/apt/transaction/c812a21024b14d20946129fd82f10599
+Oct 23 16:44:09 kyle-VirtualBox AptDaemon.Worker: INFO: Committing packages: dbus.Array([dbus.String('linux-headers-4.15.0-38#auto'), dbus.String('linux-headers-4.15.0-38-generic#auto'), dbus.String('linux-image-4.15.0-38-generic#auto'), dbus.String('linux-modules-4.15.0-38-generic#auto'), dbus.String('linux-modules-extra-4.15.0-38-generic#auto')], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([dbus.String('bsdutils'), dbus.String('fdisk'), dbus.String('friendly-recovery'), dbus.String('gir1.2-snapd-1'), dbus.String('gnome-mines'), dbus.String('gnome-software'), dbus.String('gnome-software-common'), dbus.String('gnome-software-plugin-snap'), dbus.String('libblkid1'), dbus.String('libfdisk1'), dbus.String('libmount1'), dbus.String('libsmartcols1'), dbus.String('libsnapd-glib1'), dbus.String('libuuid1'), dbus.String('linux-generic'), dbus.String('linux-headers-generic'), dbus.String('linux-image-generic'), dbus.String('mount'), dbus.String('python3-distupgrade'), dbus.String('rfkill'), dbus.String('ubuntu-release-upgrader-core'), dbus.String('ubuntu-release-upgrader-gtk'), dbus.String('ubuntu-software'), dbus.String('util-linux'), dbus.String('uuid-runtime')], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s'))
+Oct 23 16:44:09 kyle-VirtualBox org.debian.apt[472]: 16:44:09 AptDaemon.Worker [INFO]: Committing packages: dbus.Array([dbus.String('linux-headers-4.15.0-38#auto'), dbus.String('linux-headers-4.15.0-38-generic#auto'), dbus.String('linux-image-4.15.0-38-generic#auto'), dbus.String('linux-modules-4.15.0-38-generic#auto'), dbus.String('linux-modules-extra-4.15.0-38-generic#auto')], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([dbus.String('bsdutils'), dbus.String('fdisk'), dbus.String('friendly-recovery'), dbus.String('gir1.2-snapd-1'), dbus.String('gnome-mines'), dbus.String('gnome-software'), dbus.String('gnome-software-common'), dbus.String('gnome-software-plugin-snap'), dbus.String('libblkid1'), dbus.String('libfdisk1'), dbus.String('libmount1'), dbus.String('libsmartcols1'), dbus.String('libsnapd-glib1'), dbus.String('libuuid1'), dbus.String('linux-generic'), dbus.String('linux-headers-generic'), dbus.String('linux-image-generic'), dbus.String('mount'), dbus.String('python3-distupgrade'), dbus.String('rfkill'), dbus.String('ubuntu-release-upgrader-core'), dbus.String('ubuntu-release-upgrader-gtk'), dbus.String('ubuntu-software'), dbus.String('util-linux'), dbus.String('uuid-runtime')], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s'))
+Oct 23 16:44:11 kyle-VirtualBox gnome-shell[2018]: JS ERROR: TypeError: this._currentWindow is null#012_setCurrentRect@resource:///org/gnome/shell/ui/keyboard.js:536:13#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_init/<@resource:///org/gnome/shell/ui/keyboard.js:503:13#012pushModal@resource:///org/gnome/shell/ui/modalDialog.js:226:13#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012open@resource:///org/gnome/shell/ui/modalDialog.js:155:14#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_ensureOpen@resource:///org/gnome/shell/ui/components/polkitAgent.js:212:14#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_onSessionRequest@resource:///org/gnome/shell/ui/components/polkitAgent.js:310:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+Oct 23 16:44:11 kyle-VirtualBox gnome-shell[2018]: JS ERROR: TypeError: this._currentWindow is null#012_setCurrentRect@resource:///org/gnome/shell/ui/keyboard.js:536:13#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_init/<@resource:///org/gnome/shell/ui/keyboard.js:503:13
+Oct 23 16:44:47 kyle-VirtualBox gnome-shell[2018]: JS ERROR: TypeError: this._currentWindow is null#012_setCurrentRect@resource:///org/gnome/shell/ui/keyboard.js:536:13#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_init/<@resource:///org/gnome/shell/ui/keyboard.js:503:13#012popModal@resource:///org/gnome/shell/ui/main.js:497:9#012_ungrabEvents@resource:///org/gnome/shell/ui/dnd.js:202:13#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_dragComplete@resource:///org/gnome/shell/ui/dnd.js:655:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_finishAnimation@resource:///org/gnome/shell/ui/dnd.js:632:13#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012startDrag/this._dragActorDestroyId<@resource:///org/gnome/shell/ui/dnd.js:355:13#012_onAnimationComplete@resource:///org/gnome/shell/ui/dnd.js:644:13#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_addHandler/params[name]@resource:///org/gnome/shell/ui/tweener.js:112:17#012_callOnFunction@resource:///org/gnome/gjs/modules/tweener/tweener.js:208:13#012_updateTweenByIndex@resource:///org/gnome/gjs/modules/tweener/tweener.js:337:9#012_updateTweens@resource:///org/gnome/gjs/modules/tweener/tweener.js:350:18#012_onEnterFrame@resource:///org/gnome/gjs/modules/tweener/tweener.js:365:10#012_emit@resource:///org/gnome/gjs/modules/signals.js:128:27#012_onNewFrame@resource:///org/gnome/shell/ui/tweener.js:244:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_init/<@resource:///org/gnome/shell/ui/tweener.js:219:13
+Oct 23 16:44:48 kyle-VirtualBox gnome-shell[2018]: JS ERROR: TypeError: this._currentWindow is null#012_setCurrentRect@resource:///org/gnome/shell/ui/keyboard.js:536:13#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_init/<@resource:///org/gnome/shell/ui/keyboard.js:503:13
+Oct 23 16:44:51 kyle-VirtualBox gnome-shell[2018]: message repeated 5 times: [ JS ERROR: TypeError: this._currentWindow is null#012_setCurrentRect@resource:///org/gnome/shell/ui/keyboard.js:536:13#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_init/<@resource:///org/gnome/shell/ui/keyboard.js:503:13]
+Oct 23 16:44:52 kyle-VirtualBox AptDaemon.Worker: INFO: Processing transaction /org/debian/apt/transaction/c812a21024b14d20946129fd82f10599
+Oct 23 16:44:52 kyle-VirtualBox org.debian.apt[472]: 16:44:52 AptDaemon.Worker [INFO]: Processing transaction /org/debian/apt/transaction/c812a21024b14d20946129fd82f10599
+Oct 23 16:45:18 kyle-VirtualBox update-notifier.desktop[2685]: debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+Oct 23 16:45:30 kyle-VirtualBox update-notifier.desktop[2685]: debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+Oct 23 16:45:31 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:45:32 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:45:33 kyle-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 23 16:45:33 kyle-VirtualBox kernel: [  470.382522] systemd[1]: Started ACPI event daemon.
+Oct 23 16:45:34 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:45:34 kyle-VirtualBox systemd[1]: Stopped Discard unused blocks once a week.
+Oct 23 16:45:34 kyle-VirtualBox systemd[1]: Stopping Discard unused blocks once a week.
+Oct 23 16:45:34 kyle-VirtualBox systemd[1]: Started Discard unused blocks once a week.
+Oct 23 16:45:34 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:45:35 kyle-VirtualBox systemd[1]: Stopped Discard unused blocks once a week.
+Oct 23 16:45:35 kyle-VirtualBox systemd[1]: Stopping Discard unused blocks once a week.
+Oct 23 16:45:35 kyle-VirtualBox systemd[1]: Started Discard unused blocks once a week.
+Oct 23 16:45:35 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:45:37 kyle-VirtualBox systemd[1]: message repeated 3 times: [ Reloading.]
+Oct 23 16:45:40 kyle-VirtualBox gnome-software[2351]: failed to rescan: Failed to parse /usr/share/applications/gnome-mines.desktop.dpkg-new file: cannot process file of type text/plain
+Oct 23 16:45:40 kyle-VirtualBox gnome-software[2351]: failed to rescan: Failed to parse /usr/share/applications/gnome-mines.desktop.dpkg-tmp file: cannot process file of type text/plain
+Oct 23 16:45:41 kyle-VirtualBox gnome-software[2351]: failed to rescan: Failed to parse /usr/share/applications/gnome-mines.desktop file: cannot process file of type application/x-desktop
+Oct 23 16:45:42 kyle-VirtualBox gnome-software[2351]: failed to rescan: No valid root node specified
+Oct 23 16:45:42 kyle-VirtualBox gnome-software[2351]: failed to rescan: No valid root node specified
+Oct 23 16:45:42 kyle-VirtualBox dbus-daemon[1282]: [session uid=121 pid=1282] Reloaded configuration
+Oct 23 16:45:42 kyle-VirtualBox dbus-daemon[1282]: [session uid=121 pid=1282] Reloaded configuration
+Oct 23 16:45:42 kyle-VirtualBox dbus-daemon[1854]: [session uid=1000 pid=1854] Reloaded configuration
+Oct 23 16:45:42 kyle-VirtualBox dbus-daemon[1854]: message repeated 2 times: [ [session uid=1000 pid=1854] Reloaded configuration]
+Oct 23 16:45:42 kyle-VirtualBox dbus-daemon[1282]: [session uid=121 pid=1282] Reloaded configuration
+Oct 23 16:45:42 kyle-VirtualBox dbus-daemon[1282]: [session uid=121 pid=1282] Reloaded configuration
+Oct 23 16:45:42 kyle-VirtualBox dbus-daemon[1854]: [session uid=1000 pid=1854] Reloaded configuration
+Oct 23 16:45:42 kyle-VirtualBox dbus-daemon[1282]: [session uid=121 pid=1282] Reloaded configuration
+Oct 23 16:45:42 kyle-VirtualBox dbus-daemon[1854]: [session uid=1000 pid=1854] Reloaded configuration
+Oct 23 16:45:42 kyle-VirtualBox dbus-daemon[1282]: [session uid=121 pid=1282] Reloaded configuration
+Oct 23 16:45:43 kyle-VirtualBox dbus-daemon[1854]: [session uid=1000 pid=1854] Reloaded configuration
+Oct 23 16:45:43 kyle-VirtualBox dbus-daemon[1282]: [session uid=121 pid=1282] Reloaded configuration
+Oct 23 16:45:43 kyle-VirtualBox dbus-daemon[1854]: [session uid=1000 pid=1854] Reloaded configuration
+Oct 23 16:45:47 kyle-VirtualBox gnome-software[2351]: failed to rescan: No valid root node specified
+Oct 23 16:45:48 kyle-VirtualBox gnome-software[2351]: message repeated 4 times: [ failed to rescan: No valid root node specified]
+Oct 23 16:45:48 kyle-VirtualBox gnome-software[2351]: failed to rescan: Failed to parse /usr/share/applications/gnome-software-local-file.desktop file: cannot process file of type application/x-desktop
+Oct 23 16:45:48 kyle-VirtualBox gnome-software[2351]: failed to rescan: Failed to parse /usr/share/applications/org.gnome.Software.Editor.desktop file: cannot process file of type application/x-desktop
+Oct 23 16:45:48 kyle-VirtualBox gnome-software[2351]: failed to rescan: Failed to parse /usr/share/applications/org.gnome.Software.desktop file: cannot process file of type application/x-desktop
+Oct 23 16:45:49 kyle-VirtualBox gnome-software[2351]: Only 0 apps for recent list, hiding
+Oct 23 16:45:52 kyle-VirtualBox gnome-software[2351]: tried overwriting vlc key GnomeSoftware::FeatureTile-css from border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('/home/kyle/.cache/gnome-software/cssresource/f086b7af91273453581758395baa3bd385e2ac41-banner-icon.png') left center / auto 100% no-repeat, url('/home/kyle/.cache/gnome-software/cssresource/77e25ae4433ebd18cceeebee1c05d9ff0e1ef427-banner_32i5K4c.png') center / cover no-repeat;; to border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner-icon.png') left center / auto 100% no-repeat, url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner_32i5K4c.png') center / cover no-repeat;;
+Oct 23 16:45:56 kyle-VirtualBox gnome-software[2351]: Only 0 apps for recent list, hiding
+Oct 23 16:45:56 kyle-VirtualBox PackageKit: resolve transaction /123_dbdbeaac from uid 1000 finished with success after 5737ms
+Oct 23 16:45:57 kyle-VirtualBox gnome-software[2351]: tried overwriting vlc key GnomeSoftware::FeatureTile-css from border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('/home/kyle/.cache/gnome-software/cssresource/f086b7af91273453581758395baa3bd385e2ac41-banner-icon.png') left center / auto 100% no-repeat, url('/home/kyle/.cache/gnome-software/cssresource/77e25ae4433ebd18cceeebee1c05d9ff0e1ef427-banner_32i5K4c.png') center / cover no-repeat;; to border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner-icon.png') left center / auto 100% no-repeat, url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner_32i5K4c.png') center / cover no-repeat;;
+Oct 23 16:46:32 kyle-VirtualBox gnome-software[2351]: failed to rescan: Failed to parse /usr/share/ubuntu/applications/org.gnome.Software.desktop file: cannot process file of type application/x-desktop
+Oct 23 16:46:33 kyle-VirtualBox gnome-software[2351]: failed to rescan: Failed to parse /usr/share/ubuntu/applications/org.gnome.Software.desktop.dpkg-tmp file: cannot process file of type text/plain
+Oct 23 16:46:38 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:46:39 kyle-VirtualBox gnome-software[2351]: Only 0 apps for recent list, hiding
+Oct 23 16:46:41 kyle-VirtualBox gnome-software[2351]: tried overwriting vlc key GnomeSoftware::FeatureTile-css from border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('/home/kyle/.cache/gnome-software/cssresource/f086b7af91273453581758395baa3bd385e2ac41-banner-icon.png') left center / auto 100% no-repeat, url('/home/kyle/.cache/gnome-software/cssresource/77e25ae4433ebd18cceeebee1c05d9ff0e1ef427-banner_32i5K4c.png') center / cover no-repeat;; to border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner-icon.png') left center / auto 100% no-repeat, url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner_32i5K4c.png') center / cover no-repeat;;
+Oct 23 16:46:42 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:46:43 kyle-VirtualBox systemd[1]: Started Daemon for generating UUIDs.
+Oct 23 16:46:44 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:46:52 kyle-VirtualBox kernel: [  549.552877] SGI XFS with ACLs, security attributes, realtime, no debug enabled
+Oct 23 16:46:52 kyle-VirtualBox kernel: [  549.639921] JFS: nTxBlock = 7883, nTxLock = 63069
+Oct 23 16:46:52 kyle-VirtualBox kernel: [  549.672183] ntfs: driver 2.1.32 [Flags: R/O MODULE].
+Oct 23 16:46:52 kyle-VirtualBox kernel: [  549.713276] QNX4 filesystem 0.2.3 registered.
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  549.789753] raid6: sse2x1   gen()  9980 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  549.837601] raid6: sse2x1   xor()  5280 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  549.885432] raid6: sse2x2   gen()  8084 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  549.933848] raid6: sse2x2   xor()  4649 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  549.981576] raid6: sse2x4   gen()  7575 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.029429] raid6: sse2x4   xor()  5502 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.077280] raid6: avx2x1   gen() 12397 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.125249] raid6: avx2x1   xor() 11414 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.173219] raid6: avx2x2   gen() 18153 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.221672] raid6: avx2x2   xor() 12354 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.270009] raid6: avx2x4   gen() 20943 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.317827] raid6: avx2x4   xor() 11223 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.317829] raid6: using algorithm avx2x4 gen() 20943 MB/s
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.317830] raid6: .... xor() 11223 MB/s, rmw enabled
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.317831] raid6: using avx2x2 recovery algorithm
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.345399] xor: automatically using best checksumming function   avx       
+Oct 23 16:46:53 kyle-VirtualBox kernel: [  550.405684] Btrfs loaded, crc32c=crc32c-intel
+Oct 23 16:46:53 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:47:30 kyle-VirtualBox snapd[638]: 2018/10/23 16:47:30 Unsolicited response received on idle HTTP channel starting with "HTTP/1.0 408 Request Time-out\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>408 Request Time-out</h1>\nYour browser didn't send a complete request in time.\n</body></html>\n"; err=<nil>
+Oct 23 16:47:39 kyle-VirtualBox AptDaemon.Worker: INFO: Finished transaction /org/debian/apt/transaction/c812a21024b14d20946129fd82f10599
+Oct 23 16:47:40 kyle-VirtualBox org.debian.apt[472]: /usr/lib/python3/dist-packages/aptdaemon/progress.py:491: Warning: Source ID 26 was not found when attempting to remove it
+Oct 23 16:47:40 kyle-VirtualBox org.debian.apt[472]:   GLib.source_remove(id)
+Oct 23 16:47:40 kyle-VirtualBox org.debian.apt[472]: /usr/lib/python3/dist-packages/aptdaemon/progress.py:491: Warning: Source ID 27 was not found when attempting to remove it
+Oct 23 16:47:40 kyle-VirtualBox org.debian.apt[472]:   GLib.source_remove(id)
+Oct 23 16:47:40 kyle-VirtualBox org.debian.apt[472]: 16:47:39 AptDaemon.Worker [INFO]: Finished transaction /org/debian/apt/transaction/c812a21024b14d20946129fd82f10599
+Oct 23 16:50:14 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:50:15 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:50:15 kyle-VirtualBox systemd[1]: Starting LSB: Starts or stops the xinetd daemon....
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17410]:  * Starting internet superserver xinetd
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17410]:    ...done.
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/chargen-udp [file=/etc/xinetd.d/chargen-udp] [line=28]
+Oct 23 16:50:15 kyle-VirtualBox systemd[1]: Started LSB: Starts or stops the xinetd daemon..
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=14]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/daytime-udp [file=/etc/xinetd.d/daytime-udp] [line=26]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=14]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/discard-udp [file=/etc/xinetd.d/discard-udp] [line=25]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=14]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/echo-udp [file=/etc/xinetd.d/echo-udp] [line=26]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/servers [file=/etc/xinetd.d/servers] [line=14]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/services [file=/etc/xinetd.d/services] [line=13]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=13]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Reading included configuration file: /etc/xinetd.d/time-udp [file=/etc/xinetd.d/time-udp] [line=28]
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: 2.3.15.3 started with libwrap loadavg labeled-networking options compiled in.
+Oct 23 16:50:15 kyle-VirtualBox xinetd[17420]: Started working: 0 available services
+Oct 23 16:50:16 kyle-VirtualBox systemd[1]: Reloading.
+Oct 23 16:52:51 kyle-VirtualBox systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 23 16:52:51 kyle-VirtualBox systemd[1]: Started Cleanup of Temporary Directories.
+Oct 23 16:58:07 kyle-VirtualBox AptDaemon: INFO: Quitting due to inactivity
+Oct 23 16:58:07 kyle-VirtualBox org.debian.apt[472]: 16:58:07 AptDaemon [INFO]: Quitting due to inactivity
+Oct 23 16:58:07 kyle-VirtualBox org.debian.apt[472]: 16:58:07 AptDaemon [INFO]: Quitting was requested
+Oct 23 16:58:07 kyle-VirtualBox AptDaemon: INFO: Quitting was requested
+Oct 23 17:02:49 kyle-VirtualBox systemd[1]: Started Run anacron jobs.
+Oct 23 17:02:49 kyle-VirtualBox anacron[18075]: Anacron 2.3 started on 2018-10-23
+Oct 23 17:02:49 kyle-VirtualBox anacron[18075]: Normal exit (0 jobs run)
+Oct 23 17:02:56 kyle-VirtualBox gnome-shell[2018]: Object .Gjs_AppIndicatorIconActor__1 (0x557e2b440c40), has been already finalized. Impossible to set any property to it.
+Oct 23 17:02:56 kyle-VirtualBox gnome-software[2351]: no app for changed ubuntu-dock@ubuntu.com
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: == Stack trace for context 0x557e2b21d340 ==
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #0 0x7fff6a85dad0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f04b02b5de0 @ 87)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #1 0x557e2b62d368 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f049c0c0b38 @ 58)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #2 0x7fff6a85e6b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #3 0x7fff6a85e770 b   self-hosted:916 (0x7f04b02f12b8 @ 367)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #4 0x7fff6a85e860 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f04b02d2230 @ 386)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #5 0x557e2b62d2e0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f049c0b1808 @ 22)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #6 0x7fff6a85f4b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #7 0x557e2b62d238 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f049c0adde0 @ 225)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #8 0x7fff6a860090 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #9 0x557e2b62d1c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f049c0ad120 @ 37)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #10 0x557e2b62d100 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f049e65a120 @ 431)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #11 0x557e2b62d080 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f049e65abc0 @ 13)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #12 0x7fff6a860d90 b   self-hosted:251 (0x7f04b02c4ab0 @ 223)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #13 0x557e2b62d000 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f049e65ab38 @ 64)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #14 0x557e2b62cf80 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f049e65ac48 @ 87)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #15 0x7fff6a862290 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f04b02d2230 @ 386)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #16 0x7fff6a862aa0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f049e36a918 @ 254)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #17 0x7fff6a863e90 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #18 0x557e2b62ce40 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f049e36a6f8 @ 40)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #19 0x7fff6a8651f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:02:56 kyle-VirtualBox gnome-software[2351]: no app for changed ubuntu-appindicators@ubuntu.com
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #20 0x557e2b62cd98 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f049e350e68 @ 188)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #21 0x7fff6a866550 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #22 0x557e2b62cd10 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f049e34ef78 @ 18)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #23 0x7fff6a8678b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #24 0x7fff6a8680c0 b   self-hosted:916 (0x7f04b02f12b8 @ 367)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #25 0x7fff6a868f10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f04b02d2230 @ 386)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #26 0x557e2b62cc90 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f049e638890 @ 29)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #27 0x557e2b62cc08 i   resource:///org/gnome/shell/ui/tweener.js:112 (0x7f04b02c8e68 @ 37)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #28 0x557e2b62cb68 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f04b02d2b38 @ 54)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #29 0x557e2b62ca48 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f04b02d2bc0 @ 1626)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #30 0x557e2b62c9b8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f04b02d2c48 @ 100)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #31 0x557e2b62c940 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f04b02d2cd0 @ 10)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #32 0x7fff6a86beb0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f04b02d2230 @ 386)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #33 0x557e2b62c8b0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f04b02cf808 @ 159)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #34 0x7fff6a86d210 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:02:56 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #35 0x557e2b62c830 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f04b02cf780 @ 15)
+Oct 23 17:05:04 kyle-VirtualBox gnome-software[2351]: no app for changed ubuntu-dock@ubuntu.com
+Oct 23 17:05:04 kyle-VirtualBox gnome-software[2351]: no app for changed ubuntu-appindicators@ubuntu.com
+Oct 23 17:05:04 kyle-VirtualBox gnome-shell[2018]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.59/org/ayatana/NotificationItem/software_update_available
+Oct 23 17:05:06 kyle-VirtualBox dbus-daemon[1854]: [session uid=1000 pid=1854] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.12' (uid=1000 pid=2018 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct 23 17:05:06 kyle-VirtualBox systemd[1824]: Starting Virtual filesystem metadata service...
+Oct 23 17:05:06 kyle-VirtualBox dbus-daemon[1854]: [session uid=1000 pid=1854] Successfully activated service 'org.gtk.vfs.Metadata'
+Oct 23 17:05:06 kyle-VirtualBox systemd[1824]: Started Virtual filesystem metadata service.
+Oct 23 17:05:06 kyle-VirtualBox gvfsd-metadata[18114]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Oct 23 17:05:06 kyle-VirtualBox gvfsd-metadata[18114]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Oct 23 17:09:01 kyle-VirtualBox CRON[18152]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 23 17:09:32 kyle-VirtualBox systemd[1]: Starting Clean php session files...
+Oct 23 17:09:32 kyle-VirtualBox systemd[1]: Started Clean php session files.
+Oct 23 17:17:01 kyle-VirtualBox CRON[18339]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 23 17:23:16 kyle-VirtualBox gnome-shell[2018]: Some code accessed the property 'discreteGpuAvailable' on the module 'appDisplay'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 23 17:23:16 kyle-VirtualBox gnome-shell[2018]: Some code accessed the property 'WindowPreviewMenuItem' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 23 17:35:10 kyle-VirtualBox gnome-shell[2018]: Object St.Bin (0x557e2e738460), has been already finalized. Impossible to set any property to it.
+Oct 23 17:35:10 kyle-VirtualBox gnome-shell[2018]: Object St.Bin (0x557e2e738460), has been already finalized. Impossible to set any property to it.
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: == Stack trace for context 0x557e2b21d340 ==
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #0 0x557e2b62c970 i   resource:///org/gnome/shell/ui/userWidget.js:59 (0x7f049e655b38 @ 212)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #1 0x7fff6a86bdc0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #2 0x557e2b62c8f0 i   resource:///org/gnome/shell/ui/components/polkitAgent.js:342 (0x7f049c06d340 @ 59)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #3 0x7fff6a86d120 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #4 0x557e2b62c830 i   self-hosted:916 (0x7f04b02f12b8 @ 367)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: == Stack trace for context 0x557e2b21d340 ==
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #0 0x557e2b62c970 i   resource:///org/gnome/shell/ui/userWidget.js:60 (0x7f049e655b38 @ 274)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #1 0x7fff6a86bdc0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #2 0x557e2b62c8f0 i   resource:///org/gnome/shell/ui/components/polkitAgent.js:342 (0x7f049c06d340 @ 59)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #3 0x7fff6a86d120 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #4 0x557e2b62c830 i   self-hosted:916 (0x7f04b02f12b8 @ 367)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: == Stack trace for context 0x557e2b21d340 ==
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #0 0x557e2b62c970 i   resource:///org/gnome/shell/ui/userWidget.js:65 (0x7f049e655b38 @ 365)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #1 0x7fff6a86bdc0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #2 0x557e2b62c8f0 i   resource:///org/gnome/shell/ui/components/polkitAgent.js:342 (0x7f049c06d340 @ 59)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #3 0x7fff6a86d120 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #4 0x557e2b62c830 i   self-hosted:916 (0x7f04b02f12b8 @ 367)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: == Stack trace for context 0x557e2b21d340 ==
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #0 0x557e2b62c8f0 i   resource:///org/gnome/shell/ui/components/polkitAgent.js:343 (0x7f049c06d340 @ 84)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #1 0x7fff6a86d120 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f04b02b5de0 @ 71)
+Oct 23 17:35:10 kyle-VirtualBox org.gnome.Shell.desktop[2018]: #2 0x557e2b62c830 i   self-hosted:916 (0x7f04b02f12b8 @ 367)
+Oct 23 17:35:10 kyle-VirtualBox gnome-shell[2018]: Object St.Bin (0x557e2e738460), has been already deallocated - impossible to access to it. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Oct 23 17:35:10 kyle-VirtualBox gnome-shell[2018]: Object St.Bin (0x557e2e738460), has been already deallocated - impossible to access to it. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Oct 23 17:36:13 kyle-VirtualBox systemd[1]: Stopping vsftpd FTP server...
+Oct 23 17:36:13 kyle-VirtualBox systemd[1]: Stopped vsftpd FTP server.
+Oct 23 17:36:13 kyle-VirtualBox systemd[1]: Starting vsftpd FTP server...
+Oct 23 17:36:13 kyle-VirtualBox systemd[1]: Started vsftpd FTP server.
+Oct 23 17:37:54 kyle-VirtualBox nagios3: Auto-save of retention data completed successfully.
+Oct 23 17:39:01 kyle-VirtualBox CRON[18609]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 23 17:39:32 kyle-VirtualBox systemd[1]: Starting Clean php session files...
+Oct 23 17:39:32 kyle-VirtualBox systemd[1]: Started Clean php session files.
+Oct 23 17:48:31 kyle-VirtualBox systemd-resolved[324]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Oct 23 17:50:02 kyle-VirtualBox org.gnome.Shell.desktop[2018]: (/usr/lib/firefox/firefox:17997): dconf-WARNING **: 17:50:02.050: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Oct 23 17:53:29 kyle-VirtualBox systemd-resolved[324]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Oct 23 18:00:50 kyle-VirtualBox systemd[1]: Started Run anacron jobs.
+Oct 23 18:00:50 kyle-VirtualBox anacron[21218]: Anacron 2.3 started on 2018-10-23
+Oct 23 18:00:50 kyle-VirtualBox anacron[21218]: Normal exit (0 jobs run)
