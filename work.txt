@@ -1,0 +1,7 @@
+installed nagios,ftp,mysql,apache,wrote shellscript to notify admin of files
+added to ftp server
+
+sorry i totally forgot about git... been working on 3 days/nights straight
+>6hr sleep total
+
+sorry
