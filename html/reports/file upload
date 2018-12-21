@@ -1,0 +1,9 @@
+
+tail -F /var/log/vsftpd.log | while read line; do
+  if echo "$line" | grep -q 'OK UPLOAD:'; then
+    filename=$(echo "$line" | cut -d, -f2)
+    if [ -s "$filename" ]; then
+     echo -ne '\007'
+    fi
+  fi
+done
